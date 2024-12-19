@@ -26,7 +26,7 @@ const Signup = () => {
     } else {
       try {
         const response = await axios.post(
-          "http://localhost:3000/api/v1/sign-in",
+          "http://localhost:3000/api/v1/sign-in", // Ensure this is correct
           Data
         );
         if (response.status === 200) {
@@ -37,7 +37,7 @@ const Signup = () => {
           console.log("Unexpected response", response);
         }
       } catch (error) {
-        alert("Error during sign-in", error.response.data.message);
+        alert(`Error during sign-in${error.response.data.message}`);
         alert("An error occurred during sign-in. Please try again.");
       }
     }
