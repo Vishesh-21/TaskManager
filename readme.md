@@ -32,7 +32,7 @@ A robust **Task Manager Application** built using the MERN stack, offering compr
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Vishesh-21/task-manager.git
+   git clone https://github.com/Vishesh-21/TaskManager.git
    cd task-manager
 
 ## Future Enhancements
